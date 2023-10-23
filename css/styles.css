@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Itim&family=Lato:wght@300;400&family=Libre+Franklin:wght@300;400;500;600;700&family=Merriweather+Sans:wght@300;400;700&family=Montserrat:wght@300;400;500&family=Open+Sans:wght@300;400;500&family=Oswald:wght@300;400;500&family=Poppins:ital,wght@0,400;0,700;1,600&family=Roboto+Mono:wght@100&family=Roboto:wght@100;300;400;500&display=swap");
+
+:root {
+  --color-fondo-principal: #333;
+  --color-fondo-secundario: rgb(240, 240, 240);
+  --color-fondo-header: #fb8500;
+
+  --color-texto-principal: #fff;
+  --color-texto-secundario: #111;
+
+  --font-family-titulos: "Libre Franklin", sans-serif;
+  --font-family-textos: "Roboto", sans-serif;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  background-color: var(--color-fondo-principal);
+  color: var(--color-texto-principal);
+
+  font-family: var(--font-family-textos);
+  font-size: 1.6rem;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-titulos);
+  margin-top: 0;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+a {
+  text-decoration: none;
+  font-family: var(--font-family-textos);
+}
+
+img {
+  display: inline-block;
+}
+
+.main__section {
+  margin-bottom: 5rem;
+}
