@@ -50,7 +50,7 @@ h6 {
 
   display: flex;
   flex-flow: column wrap;
-  align-items: center;
+  align-items: flex-start;
 
   scroll-margin-top: 82.44px;
   margin-bottom: 5rem;
