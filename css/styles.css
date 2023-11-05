@@ -57,6 +57,7 @@ h6 {
 }
 
 .section__container {
+  width: 100%;
   padding: 0 1rem;
   text-align: start;
 }
