@@ -1,27 +1,8 @@
 .videos__container--wrapper {
   width: 100%;
-
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 1rem;
-}
-
-.videos__item {
-  height: 0px;
-  padding-bottom: 56.25%;
-  position: relative;
-  border-radius: 10px;
-
-  transition: box-shadow 0.3s ease;
-}
-
-.videos__item iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  border-radius: inherit;
 }
 
 @media screen and (min-width: 768px) {

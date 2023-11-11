@@ -12,22 +12,6 @@
   width: 100%;
 }
 
-.discography__video {
-  height: 0px;
-  padding-bottom: 56.25%;
-  position: relative;
-  border-radius: 10px;
-}
-
-.discography__video iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  border-radius: inherit;
-}
-
 @media screen and (min-width: 768px) {
   .discography__paragraph {
     font-size: 1.8rem;
