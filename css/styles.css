@@ -66,6 +66,46 @@ h6 {
   font-size: 2.5rem;
 }
 
+.video-container {
+  height: 0px;
+  padding-bottom: 56.25%;
+  border-radius: 10px;
+  cursor: pointer;
+
+  position: relative;
+  z-index: 1;
+}
+
+.thumbnail-video,
+.iframe-video {
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-radius: inherit;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: inherit;
+
+  object-fit: cover;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+
+  font-size: 6.5rem;
+  opacity: 0.5;
+}
+
+.video-container:hover {
+  box-shadow: 0 0 0 2px #fff;
+}
+
 a {
   text-decoration: none;
   font-family: var(--font-family-textos);
