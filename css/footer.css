@@ -60,7 +60,7 @@
   margin: 2rem 0 0;
 }
 
-@media (hover: hover) {
+@media (pointer: fine) {
   .footer__social-text {
     opacity: 0;
     transform: translateY(5px);
