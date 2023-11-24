@@ -85,13 +85,16 @@
 
 .menu__container {
   width: 100%;
-  padding: 1rem 2rem;
+  padding: 0;
 
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  align-items: center;
   gap: 1.5rem;
+}
+
+.menu__container a {
+  line-height: 0;
 }
 
 .menu__icon {
