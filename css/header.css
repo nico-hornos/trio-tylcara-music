@@ -34,12 +34,6 @@
   background: none;
 }
 
-.menu-button-close {
-  position: absolute;
-  top: 1.6rem;
-  right: 1rem;
-}
-
 .menu-button img {
   width: 100%;
   height: 100%;
@@ -73,6 +67,12 @@
 
 .nav__menu.menu-active {
   transform: translate(0%);
+}
+
+.menu__item-button {
+  position: absolute;
+  top: 1.6rem;
+  right: 1rem;
 }
 
 .menu__link {
