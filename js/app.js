@@ -55,7 +55,18 @@ function insertVideo() {
 // stopVideo detiene el video activo y devuelve el contenido original del contenedor
 function stopVideo(videoContainer) {
   videoContainer.classList.remove("active-video");
-  videoContainer.innerHTML = `<i class="play-icon fa-brands fa-youtube"></i><img class="thumbnail-video" src="imagenes/thumbnails/thumbnail-video.jpg" alt="portada video youtube" />`;
+  // se agrega la portada correspondiente al video detenido
+  if (videoContainer.id == "video-discography") {
+    videoContainer.innerHTML = `<i class="play-icon fa-brands fa-youtube"></i><img class="thumbnail-video" src="imagenes/thumbnails/thumbnail-video-discography.jpg" alt="portada video youtube" />`;
+  } else if (videoContainer.id == "video-1") {
+    videoContainer.innerHTML = `<i class="play-icon fa-brands fa-youtube"></i><img class="thumbnail-video" src="imagenes/thumbnails/jujuy-para-dos.jpg" alt="portada video youtube" />`;
+  } else if (videoContainer.id == "video-2") {
+    videoContainer.innerHTML = `<i class="play-icon fa-brands fa-youtube"></i><img class="thumbnail-video" src="imagenes/thumbnails/jujeñito.jpg" alt="portada video youtube" />`;
+  } else if (videoContainer.id == "video-3") {
+    videoContainer.innerHTML = `<i class="play-icon fa-brands fa-youtube"></i><img class="thumbnail-video" src="imagenes/thumbnails/munasquechay.jpg" alt="portada video youtube" />`;
+  } else if (videoContainer.id == "video-4") {
+    videoContainer.innerHTML = `<i class="play-icon fa-brands fa-youtube"></i><img class="thumbnail-video" src="imagenes/thumbnails/farra-de-ayer.jpg" alt="portada video youtube" />`;
+  }
 }
 
 // Agregamos un evento clic a cada contenedor de video para insertar el iframe
